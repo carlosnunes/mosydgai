@@ -1,0 +1,16 @@
+Instalar o git bash
+
+Abrir o git bash
+
+Seguir as instruções de:
+https://help.github.com/articles/generating-ssh-keys#platform-windows
+
+mas no passo 2, antes de "Then add your new key to the ssh-agent:", fazer:
+	1. exec ssh-agent bash
+	2. Colocar a password
+
+Seguir as instruções em:
+http://www.redmine.org/projects/redmine/wiki/HowTo_Easily_integrate_a_(SSH_secured)_GIT_repository_into_redmine
+
+mas no passo 3, criar um job em Windows:
+git fetch --all
